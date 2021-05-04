@@ -1,4 +1,3 @@
-// import icons from '../img/icons.svg' // Parcel 1
 import * as model from './model.js';
 import {MODAL_CLOSE_SEC} from './config.js'
 import recipeView from './view/recipeView.js';
@@ -100,7 +99,7 @@ const controlBookmarks = function (){
 
 const controlAddRecipe = async function (newRecipe){
   try {
-    // Show loading Soinner
+    // Show loading Spinner
     addRecipeView.renderSpinner()
 
 
