@@ -28,11 +28,13 @@ $bp-smallest: 31.25em; // 500px
 }
 
 html {
+  display: flex;
   box-sizing: border-box;
   font-size: 62.5%;
 
-  @media only screen and (max-width: $bp-medium) {
+  @media only screen and (max-width: $bp-large) and (min-width: $bp-smallest) {
     font-size: 50%;
+    margin: auto;
   }
 }
 
@@ -63,9 +65,9 @@ body {
     'head head'
     'list recipe';
 
-  @media only screen and (max-width: $bp-large) {
+  @media only screen and (max-width: $bp-large) and (min-width: $bp-smallest) {
     max-width: 100%;
-    margin: 0;
+    margin: auto;
     border-radius: 0;
   }
 }
