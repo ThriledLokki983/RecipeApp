@@ -5,7 +5,7 @@ import searchView from './view/searchView.js';
 import resultsView from './view/resultView.js';
 import bookmarkView from './view/bookmarksView.js';
 import paginationView from './view/paginationView.js';
-import addRecipeView from './View/addRecipeView.js';
+import addRecipeView from './view/addRecipeView.js';
 import 'core-js/stable'; // polyfiling everything else
 import 'regenerator-runtime/runtime'; // Polyfiling async await
 
