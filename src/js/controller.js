@@ -1,3 +1,4 @@
+// import icons from '../img/icons.svg' // Parcel 1
 import * as model from './model.js';
 import {MODAL_CLOSE_SEC} from './config.js'
 import recipeView from './view/recipeView.js';
@@ -5,7 +6,7 @@ import searchView from './view/searchView.js';
 import resultsView from './view/resultView.js';
 import bookmarkView from './view/bookmarksView.js';
 import paginationView from './view/paginationView.js';
-import addRecipeView from './view/addRecipeView.js';
+import addRecipeView from './View/addRecipeView.js';
 import 'core-js/stable'; // polyfiling everything else
 import 'regenerator-runtime/runtime'; // Polyfiling async await
 
@@ -99,7 +100,7 @@ const controlBookmarks = function (){
 
 const controlAddRecipe = async function (newRecipe){
   try {
-    // Show loading Spinner
+    // Show loading Soinner
     addRecipeView.renderSpinner()
 
 
@@ -128,9 +129,6 @@ const controlAddRecipe = async function (newRecipe){
     addRecipeView.renderError(err.message);
   }
 }
-const newFeature = function (){
-  console.log('Welcome to my site, enjoy searching for new recipes');
-}
 
 const init = function () {
   bookmarkView.addHandlerRender(controlBookmarks);
@@ -140,7 +138,6 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView._addHandlerUpload(controlAddRecipe);
-  newFeature();
 };
 init();
 
