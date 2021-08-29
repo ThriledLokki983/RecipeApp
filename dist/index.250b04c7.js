@@ -140,9 +140,9 @@
       this[globalName] = mainExports;
     }
   }
-})({"1pWSV":[function(require,module,exports) {
+})({"7BONy":[function(require,module,exports) {
 var HMR_HOST = null;
-var HMR_PORT = 61426;
+var HMR_PORT = 1234;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d751713988987e9331980363e24189ce";
 module.bundle.HMR_BUNDLE_ID = "6315ebf922a29661e8263da0250b04c7";
@@ -13687,6 +13687,6 @@ class AddRecipeView extends _ViewJsDefault.default {
 }
 exports.default = new AddRecipeView();
 
-},{"./View.js":"1D62J","url:../../img/icons.svg":"3t5dV","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}]},["1pWSV","3miIZ"], "3miIZ", "parcelRequireb3fd")
+},{"./View.js":"1D62J","url:../../img/icons.svg":"3t5dV","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}]},["7BONy","3miIZ"], "3miIZ", "parcelRequireb3fd")
 
 //# sourceMappingURL=index.250b04c7.js.map
